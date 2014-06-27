@@ -7,9 +7,46 @@
     <title>七果园</title>
     <link rel="stylesheet" href="styles/normalize.css"/>
     <link rel="stylesheet" href="styles/common.css"/>
-    <link rel="stylesheet" href="styles/index.css"/>
+    <link rel="stylesheet" href="styles/product-detail.css"/>
 </head>
 <body>
+<main>
+    <section class="slider" style="margin: 10px;">
+        <img width="100%" style="display: block;" src="images/product-detail/1.jpg" alt=""/>
+    </section>
+    <section class="product-profile">
+        <h3 class="title">美国佛罗里达葡萄柚8个装（L） 新鲜柚子 进口鲜果</h3>
 
+        <p class="price">
+            <span class="price-title">优惠价:</span>
+            <span class="price-on-sale">¥99.84</span>
+            <del class="price-in-market">¥138.00</del>
+        </p>
+    </section>
+
+    <section class="buy">
+        <form action="">
+            <div class="quantity">
+                <h4 class="quantity-title">数量：</h4>
+
+                <div class="number">
+                    <button type="button" class="decrease">-</button>
+                    <input type="number" class="num" name="quantity" autocomplete="off" value="1" min="1" max="5" />
+                    <button type="button" class="increase">+</button>
+                </div>
+            </div>
+            <hr class="divider"/>
+            <div class="button-group">
+                <button>立即购买</button>
+                <button>加入购物车</button>
+            </div>
+        </form>
+    </section>
+</main>
+<footer>
+    <p>
+        <a href="#">Copyright.七果园</a>
+    </p>
+</footer>
 </body>
 </html>

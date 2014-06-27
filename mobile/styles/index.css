@@ -154,13 +154,3 @@ header .title {
     color: #333333;
     text-decoration: none;
 }
-
-footer {
-    text-align: center;
-    font-size: .6rem;
-}
-
-footer a {
-    text-decoration: none;
-    color: #666666;
-}
