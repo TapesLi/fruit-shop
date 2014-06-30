@@ -2,6 +2,11 @@ body {
     background-color: #efefef;
 }
 
+.slider {
+    padding: .5rem;
+    background-color: #ffffff;
+}
+
 .product-profile {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -10,14 +15,18 @@ body {
     background-color: #ffffff;
 }
 
+.price-title,
+.price-on-sale {
+    color: #e4393c;
+}
+
 .price-title {
-    color: #333333;
+    /*color: #333333;*/
     /*font-size: 1.2rem;*/
 }
 
 .price-on-sale {
     margin-right: .3rem;
-    color: #e4393c;
     font-size: 1.2rem;
     font-weight: bold;
 }
@@ -28,7 +37,7 @@ body {
     font-size: .9rem;
 }
 
-.buy {
+.panel {
     margin: .5rem;
     padding: .5rem;
     border-radius: 3px;
@@ -36,6 +45,8 @@ body {
 }
 
 .divider {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     border: none;
     border-top: 1px solid #efefef;
 }
@@ -46,10 +57,66 @@ body {
     /*border-bottom: 1px solid #efefef;*/
 }
 
-.quantity-title {
-    margin: .4rem 0;
+.quantity .num {
+    width: 4rem;
+    text-align: center;
+}
+
+.quantity-title,
+.product-info-title,
+.product-info-content {
+    margin: .5rem 0;
 }
 
 .button-group {
     margin: .5rem 0;
+}
+
+.button {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    height: 2rem;
+
+    border: none;
+    -webkit-border-radius: .2rem;
+    border-radius: .2rem;
+}
+
+.button-group .button {
+    display: block;
+    float: left;
+}
+
+.button.buy,
+.button.cart {
+    color: #ffffff;
+}
+
+.button.buy {
+    background-color: #b57230;
+}
+
+.button.cart {
+    background-color: #b10000;
+}
+
+.button-group .button.buy,
+.button-group .button.cart {
+    width: 49%;
+}
+
+.product-info-title {
+    padding-bottom: .5rem;
+    border-bottom: 3px solid #ccc;
+}
+
+.product-info-title .iconfont {
+    margin-right: .5rem;
+}
+
+.product-info-content img {
+    display: block;
+    width: 100%;
 }
