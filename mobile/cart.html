@@ -8,24 +8,93 @@
     <link rel="stylesheet" href="styles/normalize.css"/>
     <link rel="stylesheet" href="styles/common.css"/>
     <link rel="stylesheet" href="styles/cart.css"/>
+
+    <script src="assets/jquery/jquery-2.1.1.min.js"></script>
+    <script src="scripts/cart.js"></script>
 </head>
 <body>
-<main>
-    <div class="mod">
-        <ul class="product-list">
-            <li class="product-item">
-
+<main class="">
+    <div class="tool-bar clearfix">
+        <ul class="tool-list clearfix">
+            <li class="tool-item" data-action="edit">
+                <a href="javascript:;">
+                    <i class="iconfont">&#xe603;</i>
+                </a>
             </li>
-
-            <li class="product-item">
-
-            </li>
-
-            <li class="product-item">
-
+            <li class="tool-item" data-action="back">
+                <a href="javascript:;">
+                    <i class="iconfont">&#xe604;</i>
+                </a>
             </li>
         </ul>
     </div>
+
+    <div class="mod">
+        <ul class="product-list">
+            <li class="product-item">
+                <a href="product-detail.html" class="cover">
+                    <img src="images/cart/2.jpg" alt=""/>
+                </a>
+
+                <div class="description">
+                    <a href="product-detail.html" class="fragment">
+                        <h5>美国佛罗里达葡萄柚8个装（L） 新鲜柚子 进口鲜果</h5>
+                    </a>
+
+                    <div class="price">
+                        <del class="price-in-market">￥498.00</del>
+                        <span class="quantity">
+                            <em class="price-on-sale">￥299.00</em>
+                            <span class="txt">
+                                x
+                                <input type="number" value="1">
+                            </span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="delete-modal">
+                    <a href="javascript:;" class="delete">删</a>
+                </div>
+            </li>
+
+            <li class="product-item">
+                <a href="product-detail.html" class="cover">
+                    <img src="images/cart/1.jpg" alt=""/>
+                </a>
+
+                <div class="description">
+                    <a href="product-detail.html" class="fragment">
+                        <h5>美国佛罗里达葡萄柚8个装（L） 新鲜柚子 进口鲜果</h5>
+                    </a>
+
+                    <div class="price">
+                        <del class="price-in-market">￥498.00</del>
+                        <span class="quantity">
+                            <em class="price-on-sale">￥299.00</em>
+                            <span class="txt">
+                                x
+                                <input type="number" value="1">
+                            </span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="delete-modal">
+                    <a href="javascript:;" class="delete">删</a>
+                </div>
+            </li>
+        </ul>
+
+        <div class="sum">
+            <span>2件商品，共计129.00元</span>
+        </div>
+
+        <div class="button-group">
+            <button class="button">去结算</button>
+        </div>
+    </div>
+
 </main>
 </body>
 </html>
