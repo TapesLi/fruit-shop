@@ -1,0 +1,31 @@
+html,
+body {
+    height: 100%;
+}
+
+.tips {
+    margin: 3rem .5rem 0 .5rem;
+    color: #ffffff;
+    background-color: #d74300;
+    border-radius: .3rem;
+
+    text-align: center;
+}
+
+.tips-content {
+    padding: 2rem 0;
+}
+
+.redirect {
+    text-indent: -999999px;
+    font-size: .8rem;
+}
+
+.redirect.show {
+    text-indent: 0;
+}
+
+.index {
+    padding-left: .2rem;
+    color: #ffffff
+}
