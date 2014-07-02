@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width">
+    <title></title>
+    <link rel="stylesheet" href="styles/normalize.css"/>
+    <link rel="stylesheet" href="styles/common.css"/>
+    <link rel="stylesheet" href="styles/payment.css"/>
+
+    <script src="assets/jquery/jquery-2.1.1.min.js"></script>
+    <script src="scripts/payment.js"></script>
+</head>
+<body>
+<main>
+    <div class="mod">
+
+        <div class="order-info">
+            <h4 class="title">订单信息</h4>
+        </div>
+        <ul class="product-list">
+            <li class="product-item">
+                <a href="product-detail.html" class="cover">
+                    <img src="images/cart/2.jpg" alt=""/>
+                </a>
+
+                <div class="description">
+                    <a href="product-detail.html" class="fragment">
+                        <h5>美国佛罗里达葡萄柚8个装（L） 新鲜柚子 进口鲜果</h5>
+                    </a>
+
+                    <div class="price">
+                        <del class="price-in-market">￥498.00</del>
+                        <span class="quantity">
+                            <em class="price-on-sale">￥299.00</em>
+                            <span class="txt">
+                                x
+                                1
+                            </span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="delete-modal">
+                    <a href="javascript:;" class="delete">删</a>
+                </div>
+            </li>
+
+            <li class="product-item">
+                <a href="product-detail.html" class="cover">
+                    <img src="images/cart/1.jpg" alt=""/>
+                </a>
+
+                <div class="description">
+                    <a href="product-detail.html" class="fragment">
+                        <h5>美国佛罗里达葡萄柚8个装（L） 新鲜柚子 进口鲜果</h5>
+                    </a>
+
+                    <div class="price">
+                        <del class="price-in-market">￥498.00</del>
+                        <span class="quantity">
+                            <em class="price-on-sale">￥299.00</em>
+                            <span class="txt">
+                                x
+                                1
+                            </span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="delete-modal">
+                    <a href="javascript:;" class="delete">删</a>
+                </div>
+            </li>
+        </ul>
+
+        <div class="sum">
+            <span><strong class="sum-number">2</strong>件商品，共计<strong class="sum-price">129.00</strong>元</span>
+        </div>
+
+        <div class="address">
+            <div class="address-detail">
+                <div>
+                    <h4 class="title">收货地址</h4>
+                </div>
+                <form action="">
+                    <div class="form-group">
+                        <input class="form-control" type="text" placeholder="收货人"/>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="text" placeholder="联系电话"/>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="text" placeholder="详细地址"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="button-group">
+            <button class="button">货到付款</button>
+        </div>
+
+        <div class="button-group">
+            <button class="button">微信支付</button>
+        </div>
+    </div>
+</main>
+</body>
+</html>
