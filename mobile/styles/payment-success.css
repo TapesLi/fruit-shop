@@ -4,16 +4,16 @@ body {
 }
 
 .tips {
-    margin: 3rem .5rem 0 .5rem;
-    color: #ffffff;
-    background-color: #d74300;
-    border-radius: .3rem;
-
-    text-align: center;
+    margin: 0 .5rem;
+    padding-top: 3rem;
 }
 
 .tips-content {
     padding: 2rem 0;
+    color: #ffffff;
+    background-color: #d74300;
+    border-radius: .3rem;
+    text-align: center;
 }
 
 .redirect {
